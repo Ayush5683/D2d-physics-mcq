@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Center the quiz container */
+  #quizForm {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #4CAF50;
+  }
+  
+  /* Styling for the title */
+  h1 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling each question */
+  .question {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling each label */
+  label {
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styling the submit button */
+  button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .prev{
+    background-color: red;
+  }
+  .prev:hover{
+    background-color: #d30c0c;
+  }
+
+  .next{
+    background-color: blue;
+  }
+
+  .next:hover{
+    background-color: #0909d5;
+  }
+  /* Styling for the result display */
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  

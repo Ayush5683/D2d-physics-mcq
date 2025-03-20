@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding:20px 40px 20px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        input::placeholder{
+            color: rgb(148, 146, 146);
+        }
+        select{
+            width: 105%;
+        }
+
+        #college option{
+            color: rgb(148, 146, 146);
+        }
+
+        button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Login</h2>
+    <form action="unit_measurement.html">
+        <div class="form-group">
+            <label for="name">Student Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="branch">Branch</label>
+            <input type="text" id="branch" name="branch" placeholder="Enter your branch" required>
+        </div>
+
+        <div class="form-group">
+            <label for="regno">Registration Number</label>
+            <input type="text" id="regno" name="regno" placeholder="Enter your registration number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="college">College Name</label>
+            <select id="college" name="college" required>
+                    <option value="" disabled selected>Select your college</option>
+                    <option value="arka_jain_university">ARKA JAIN UNIVERSITY</option>
+                    <option value="al_kabir_polytechnic">Al-Kabir Polytechnic</option>
+                    <option value="govt_poly_adityapur">Government Polytechnic Adityapur</option>
+                    <option value="govt_women_polytechnic">Government Women's Polytechnic, Jamshedpur</option>
+                    <option value="govt_poly_kharsawan">Government Polytechnic Kharsawan</option>
+                    <option value="govt_poly_dumka">Government Polytechnic Dumka</option>
+                    <option value="netaji_subhas_university">Netaji Subhas University</option>  
+            </select>
+        </div>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+</body>
+</html>
